@@ -9,6 +9,9 @@
 }
 
 /* shared style */
+.secondary-bg{
+    background-color: #fff8f3;
+}
 .text-primary{
     color: rgb(243, 88, 40);
 }
@@ -24,6 +27,16 @@
     padding: 18px 35px;
     border-radius: 5px;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 35px;
+    color: #757575;
+}
+
 /* header */
 .header{
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
@@ -71,6 +84,7 @@ nav li a {
     flex: 1; /* Takes up remaining space */
     font-size: 45px;
     font-weight: 600;
+    text-align: center;
 }
 
 .banner-image-container {
@@ -84,3 +98,38 @@ nav li a {
     height: auto; /* Maintains aspect ratio */
     width: 700;
 }
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.section-title{
+    text-align: center;
+    margin-top: 130px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130PX 150px;
+    text-align: center;
+   margin-top: 130px;
+   font-weight: bolder;
+   
+}
+
+.about-items {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+    justify-content: space-between; /* Distributes space between items */
+    gap: 20px; /* Optional: Adds space between items */
+}
+
+.item-title {
+    font-weight: bold;
+    margin-bottom: 5px; /* Adds space between title and description */
+}
+
+.item-description {
+    color: #474747;
+}
+
