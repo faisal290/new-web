@@ -1,0 +1,86 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.text-primary{
+    color: rgb(243, 88, 40);
+}
+.dark-2{color: #474747;}
+
+
+.btn-primary{
+    background-color: coral;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    justify-content: space-between; /* Adds space between items */
+    margin: 0 35px o 230px;
+    padding: 20px; /* Optional: Adds some padding around the banner */
+}
+
+.banner-content {
+    flex: 1; /* Takes up remaining space */
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-image-container {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+}
+
+.banner-profile-pic {
+    /* Ensures the image doesn't overflow */
+    height: auto; /* Maintains aspect ratio */
+    width: 700;
+}
